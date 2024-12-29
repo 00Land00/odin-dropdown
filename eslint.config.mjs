@@ -9,4 +9,11 @@ export default [
   {languageOptions: { globals: globals.browser }},
   pluginJs.configs.recommended,
   //pluginReact.configs.flat.recommended,
+  {
+    files: ["webpack.*.js"],
+    languageOptions: {
+      sourceType: "commonjs"
+    },
+    environments: ["node"],
+  }
 ];
