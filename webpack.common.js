@@ -33,7 +33,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Webpack Template",
+      title: "Dropdown Menu",
       template: "./src/template.html",
     }),
   ],
