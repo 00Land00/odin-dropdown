@@ -1,19 +1,19 @@
 .dropdown {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-btn {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .dropdown-content {
-    position: absolute;
+  position: absolute;
 }
 
 .dropdown-content > div {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .hidden {
-    visibility: hidden;
+  visibility: hidden;
 }
