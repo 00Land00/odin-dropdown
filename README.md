@@ -1,9 +1,22 @@
 # Dropdown Module
 This dropdown module is a barebones package meant as an exercise in creating an npm package.
 
+## Installation
+Download this repository and run the following commands in a command prompt with the path to this folder where you saved the repository:
+```
+npm run install
+npm run build
+npm link
+```
+
+Navigate to the desired project in the command prompt and run the following command:
+```
+npm link @land/dropdown
+```
+
 ## Usage
 ```javascript
-import dropdown from "dropdown";
+import dropdown from "@land/dropdown";
 
 const body = document.querySelector("body");
 const dd = dropdown("Title", [
